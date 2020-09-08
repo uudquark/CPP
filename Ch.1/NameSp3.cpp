@@ -27,3 +27,12 @@ void BestComImpl::SimpleFunc(void)
     PrettyFunc(); //동일 이름 공간
     ProgComImpl::SimpleFunc(); // 다른 이름 공간
 }
+void BestComImpl::PrettyFunc(void)
+{
+    std::cout<<"So Pretty!!"<<std::endl;
+}
+
+void ProgComImpl::SimpleFunc(void)
+{
+    std::cout<<"ProgCom이 정의한 함수"<<std::endl;
+}
