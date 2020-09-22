@@ -1,5 +1,5 @@
-#ifndef__CARINLINE_H__
-#define__CARINLINE_H__
+#ifndef __CARINLINE_H__
+#define __CARINLINE_H__
 
 #include <iostream>
 using namespace std;
