@@ -12,7 +12,7 @@ namespace CAR_CONST
 class Car
 {
 private:
-  char gamerID[Car_CONST::ID_LEN];
+  char gamerID[CAR_CONST::ID_LEN];
   int fuelGauge;
   int curSpeed;
 public:
